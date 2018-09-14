@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    tools:context="pucminas.computacao.luigi.graphics.MainActivity">
+
+    <EditText
+        android:id="@+id/valueAEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_columnSpan="3"
+        android:layout_column="0"
+        android:gravity="center_horizontal"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/edit_background"
+        android:elevation="@dimen/elevation"
+        android:hint="@string/message_a"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:padding="@dimen/textview_padding" />
+
+    <EditText
+        android:id="@+id/valueBEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_columnSpan="3"
+        android:layout_column="0"
+        android:gravity="center_horizontal"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/edit_background"
+        android:elevation="@dimen/elevation"
+        android:hint="@string/message_b"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:padding="@dimen/textview_padding" />
+
+    <EditText
+        android:id="@+id/valueCEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_columnSpan="3"
+        android:layout_column="0"
+        android:gravity="center_horizontal"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/edit_background"
+        android:elevation="@dimen/elevation"
+        android:hint="@string/message_c"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:padding="@dimen/textview_padding" />
+
+    <EditText
+        android:id="@+id/valueNEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:gravity="center_horizontal"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/edit_background"
+        android:elevation="@dimen/elevation"
+        android:hint="@string/message_n"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:padding="@dimen/textview_padding" />
+
+    <Button
+        android:id="@+id/btnShowGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/button_background"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:text="@string/message_btn" />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:id="@+id/graph" />
+
+</GridLayout>

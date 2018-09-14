@@ -1,0 +1,171 @@
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="layout.EventFragment">
+
+    <EditText
+        android:id="@+id/name_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_event"
+        android:layout_marginBottom="@dimen/horizontal_margin_10"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="@string/date"
+        android:layout_marginTop="@dimen/vertical_margin_10"
+        android:layout_marginBottom="@dimen/horizontal_margin_10"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/start_date_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/horizontal_margin_25"
+        android:layout_marginBottom="@dimen/vertical_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/start"
+            android:ems="4"/>
+
+        <TextView
+            android:id="@+id/start_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/border_text_view"
+            android:padding="@dimen/padding_5"
+            android:clickable="true"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/end_date_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/horizontal_margin_25"
+        android:layout_marginBottom="@dimen/vertical_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/end"
+            android:ems="4"/>
+
+        <TextView
+            android:id="@+id/end_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/border_text_view"
+            android:padding="@dimen/padding_5"
+            android:clickable="true"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="@string/hour"
+        android:layout_marginTop="@dimen/vertical_margin_10"
+        android:layout_marginBottom="@dimen/horizontal_margin_10"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/start_hour_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/horizontal_margin_25"
+        android:layout_marginBottom="@dimen/vertical_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/start"
+            android:ems="4"/>
+
+        <TextView
+            android:id="@+id/start_hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text_view"
+            android:padding="@dimen/padding_5"
+            android:gravity="center"
+            android:clickable="true"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/end_hour_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/horizontal_margin_25"
+        android:layout_marginBottom="@dimen/vertical_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/end"
+            android:ems="4"/>
+
+        <TextView
+            android:id="@+id/end_hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text_view"
+            android:padding="@dimen/padding_5"
+            android:gravity="center"
+            android:clickable="true"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_heigth"
+        android:layout_marginTop="@dimen/vertical_margin_10"
+        android:layout_marginBottom="@dimen/vertical_margin_10"
+        android:background="@android:color/darker_gray"
+        android:focusable="false"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_margin_10"
+        android:layout_marginBottom="@dimen/vertical_margin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="@string/organizer"/>
+
+        <ImageButton
+            android:id="@+id/organizer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_circle_green_24dp"
+            android:background="@drawable/image_button_bg"
+            android:layout_gravity="end"
+            android:contentDescription="@string/button_description" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>

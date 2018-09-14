@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Graphics</string>
+    <string name="message_a">Insira um valor para A</string>
+    <string name="message_b">Insira um valor para B</string>
+    <string name="message_c">Insira um valor para C</string>
+    <string name="message_n">Insira um valor para N</string>
+    <string name="message_btn">Mostrar gráfico</string>
+</resources>

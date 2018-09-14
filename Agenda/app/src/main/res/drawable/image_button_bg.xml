@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <padding
+                android:left="@dimen/padding_15"
+                android:top="@dimen/padding_15"
+                android:right="@dimen/padding_15"
+                android:bottom="@dimen/padding_15"/>
+            <solid android:color="@android:color/darker_gray" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">YourMenu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Menus</string>
+    <string name="action_remove">Remover</string>
+
+    <string name="item_selected">item selecionado</string>
+    <string name="items_selected">itens selecionados</string>
+
+    <string name="empty_menu_list">Nenhum menu existente</string>
+    <string name="empty_item_list">Nenhum item adicionado</string>
+
+    <string name="home">Home</string>
+    <string name="movies">Vídeos</string>
+    <string name="pdf">PDFs</string>
+    <string name="links">Links</string>
+
+    <string name="menu_preference_file_key">
+        pucminas.computacao.luigi.yourmenu.MENU_PREFERENCE
+    </string>
+    <string name="main_preference_file_key">
+        pucminas.computacao.luigi.yourmenu.MAIN_PREFERENCE
+    </string>
+
+    <string name="add_movie_title">Novo Vídeo</string>
+    <string name="movie_hint">Link do YouTube</string>
+    <string name="movie_hint_name">Nome do vídeo</string>
+    <string name="add_link_title">Novo Link</string>
+    <string name="link_hint">Link</string>
+    <string name="menu_hint">Título</string>
+    <string name="add_menu_title">Novo Menu</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="link_hint_name">Título do link</string>
+    <string name="open_link">Abrir Link</string>
+    <string name="open_pdf">Abrir PDF</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

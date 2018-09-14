@@ -1,0 +1,57 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Agenda</string>
+
+    <!-- Menu bottom navigation -->
+    <string name="title_event">Evento</string>
+    <string name="title_guests">Convidados</string>
+    <string name="title_message">Mensagem</string>
+
+    <!-- Menu action bar -->
+    <string name="title_finish">Finalizar</string>
+
+    <!-- Event Fragment -->
+    <string name="start">Início</string>
+    <string name="end">Fim</string>
+    <string name="date">Data</string>
+    <string name="hour">Hora</string>
+    <string name="name_event">Nome do evento</string>
+    <string name="organizer">Organizador</string>
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="phone">(99) 99999-9999</string>
+    <string name="button_description">Adicionar/Remover organizador</string>
+
+    <!-- Message Fragment -->
+    <string name="event_description">Descrição do evento:</string>
+    <string name="enter_description">Entre com uma breve descrição do evento</string>
+    <string name="send_wpp_message">Whatsapp: </string>
+    <string name="facebook_post_message">Facebook: </string>
+
+    <!-- Person Dialog -->
+    <string name="title_add_organizer">Adicionar Organizador</string>
+    <string name="title_add_guest">Adicionar Convidado</string>
+    <string name="title_update_organizer">Editar Organizador</string>
+    <string name="title_update_guest">Editar Convidado</string>
+    <string name="add_message">Adicionar</string>
+    <string name="cancel_message">Cancelar</string>
+    <string name="error_message">A data de conclusão deve ser posterior a de início</string>
+    <string name="person_success">Pessoa criada com sucesso</string>
+    <string name="person_error">Erro ao criar nova pessoa</string>
+    <string name="person_cancel">Pessoa não foi criada</string>
+
+    <!-- General Purposes -->
+    <string name="error_message_finish">É necessário adicionar um organizador!</string>
+    <string name="calendar_success">Evento salvo com sucesso</string>
+    <string name="linkedin_post_message">Linkedin:</string>
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">625190017856918</string>
+    <string name="calendar_error">Evento não inserido no calendário!</string>
+    <string name="wpp_success">Mensagem enviada no Whatsapp!</string>
+    <string name="wpp_error">Mensagem não enviada pelo whatsapp!</string>
+    <string name="facebook_success">Publicação realizada no facebook com sucesso</string>
+    <string name="facebook_error">Publicação não realizada no Facebook!</string>
+    <string name="linkedin_success">Publicação realizada no Linkedin com sucesso</string>
+    <string name="linekdin_error">Publicação não realizada no Linkedin!</string>
+</resources>

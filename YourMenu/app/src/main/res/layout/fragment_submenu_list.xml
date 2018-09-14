@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout.SubmenuListFragment">
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:paddingBottom="@dimen/layout_padding_15"
+        android:paddingTop="@dimen/layout_padding_15"
+        android:textColor="@color/list_item_title"
+        android:text="@string/empty_item_list"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addMenuItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        app:fabSize="normal"
+        android:tint="@android:color/background_light"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/colorPrimary"/>
+
+</FrameLayout>
